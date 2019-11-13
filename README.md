@@ -1,4 +1,4 @@
-# 2019-Mathematical-Contest-in-Modeling-Meritorious-Winner-
+# 2019-Mathematical-Contest-in-Modeling
 MATLAB code for 2019 Mathematical Contest in Modeling - COMAP. Analyzing opioid crisis in five states in the United States
 APF folder:
 	APF.m: code for creating Artificial Potential Field based on data
