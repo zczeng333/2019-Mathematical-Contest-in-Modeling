@@ -1,0 +1,21 @@
+clear;clc;
+% % load data
+% data=xlsread('kmeans_2010.xlsx','H2:L446');
+% data=xlsread('kmeans_2011.xlsx','H2:L428');
+% data=xlsread('kmeans_2012.xlsx','H2:L432');
+% data=xlsread('kmeans_2013.xlsx','H2:L447');
+% data=xlsread('kmeans_2014.xlsx','H2:L441');
+% data=xlsread('kmeans_2015.xlsx','H2:L425');
+% data=xlsread('kmeans_2016.xlsx','H2:L438');
+ data=xlsread('kmeans_2017.xlsx','H2:L429');  
+ [pos,class_sum0]=Kmeans3d(data(:,1),data(:,4),data(:,5),3,1);
+ [pos,class_sum1]=Kmeans3d(data(:,2),data(:,4),data(:,5),3,1);
+ [pos,class_sum]=Kmeans3d(data(:,3),data(:,4),data(:,5),3,1);
+% data=xlsread('kmeans_2010.xlsx','J2:L446');
+% data=xlsread('kmeans_2011.xlsx','J2:L428');
+% data=xlsread('kmeans_2012.xlsx','J2:L432');
+% data=xlsread('kmeans_2013.xlsx','J2:L447');
+% data=xlsread('kmeans_2014.xlsx','J2:L441');
+% data=xlsread('kmeans_2015.xlsx','J2:L425');
+% data=xlsread('kmeans_2016.xlsx','J2:L438');
+% data=xlsread('kmeans_2017.xlsx','J2:L429');  
