@@ -18,7 +18,8 @@ Dependencies
 Project Architecture
 -------------
 ```buildoutcfg
-├── Readme.md                   // help
+├── README.md                   // help
+├── Documentation.pdf           // technical documentation of this project
 ├── APF                         // Artifical Potential Field
 │   ├── APF.m                   // create Artificial Potential Field
 │   └── force.m                 // calculate attractive and replusive force
@@ -35,5 +36,5 @@ Project Architecture
 │   ├── LeastSquare.m           // Least Square Regression algorithm
 │   └── PSO.m                   // Particle Swarm Optimization
 └── Threshold_selection
-    ├── threshold_iteration.m   // determining threshold through iteration
+│   └── threshold_iteration.m   // determining threshold through iteration
 ```
