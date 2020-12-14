@@ -18,23 +18,28 @@ Dependencies
 Project Architecture
 -------------
 ```buildoutcfg
-├── README.md                   // help
-├── Documentation.pdf           // technical documentation of this project
-├── APF                         // Artifical Potential Field
-│   ├── APF.m                   // create Artificial Potential Field
-│   └── force.m                 // calculate attractive and replusive force
-├── K-Means
-│   ├── AHP.m                   // Analytic Hierarchy Process
-│   ├── clustering.m            // K-Means clustering algorithm 
-│   ├── clustering_distance.m   // calculate distance between data points 
-│   └── gauss.m                 // Gaussian distribution probability density function
-├── prediction
-│   ├── ARIMA_Predict.m         // ARIMA function for times-series prediction
-│   └── predict_main.m          // main function for prediction
-├── PSO&LS
-│   ├── euclidean_dis.m         // calculating euclidean distance between data points
-│   ├── LeastSquare.m           // Least Square Regression algorithm
-│   └── PSO.m                   // Particle Swarm Optimization
-└── Threshold_selection
-│   └── threshold_iteration.m   // determining threshold through iteration
+│  Document.pdf                 // technical documentation of this project
+│  README.md                    // help
+│
+├─APF                           //Artificial Potential Filed
+│      APF.m                    // create Artificial Potential Field
+│      force.m                  // calculate attractive and replusive force
+│
+├─K-Means                       //clustering
+│      AHP.m                    // Analytic Hierarchy Process
+│      clusting.m               // K-Means clustering algorithm 
+│      clusting_distance.m      // calculate distance between data points
+│      gauss.m                  // Gaussian distribution probability density function
+│
+├─Prediction                    // time-series prediction
+│      ARIMA_Predict.m          // ARIMA function for times-series prediction
+│      predict_main.m           // main function for prediction
+│
+├─PSO&LS                        //Partial Swarm Optimization
+│      euclidean_dis.m          // calculating euclidean distance between data points
+│      LeastSquare.m            // Least Square Regression algorithm
+│      PSO.m                    // Particle Swarm Optimization
+│
+└─Threshold_selection           // threshold calculation
+        threshold_iteration.m   // determining threshold through iteration
 ```
